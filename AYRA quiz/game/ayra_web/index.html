@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AYRA Quiz </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Lightning Background -->
+  <canvas id="bg"></canvas>
+
+  <!-- Quiz Container -->
+  <div class="container">
+    <h1>AYRA QUIZ</h1>
+    <div id="score">Score: 0</div>
+
+    <div id="question-container">
+      <div id="question">Loading questions...</div>
+      <div id="options"></div>
+    </div>
+
+    <div class="buttons">
+      <button id="next" onclick="nextQuestion()">Next Question</button>
+      <button id="quit" onclick="quitGame()">Quit Game</button>
+    </div>
+  </div>
+
+  <!-- Lightning Script -->
+  <script src="script.js"></script>
+  <script src="bg.js"></script>  
+</body>
+</html>
