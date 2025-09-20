@@ -1,21 +1,27 @@
+# ⚡ AYRA Quiz Game  
 
-# KBC Quiz Game
+A **Cyberpunk Hacker-style KBC Quiz Game** built with **HTML, CSS, and JavaScript**.  
+Featuring glowing neon effects, hacker vibes, animations, and a scoring system.  
 
-## Setup
-1. Create a virtual environment and activate it:
-   python -m venv venv
-   source venv/bin/activate   # Linux/Mac
-   venv\Scripts\activate    # Windows
+---
 
-2. Install dependencies:
-   pip install -r requirements.txt
+## 🎮 Features
+- 🔹 Multiple-choice questions (KBC style)  
+- 🔹 Live scoring system (score resets on wrong answer)  
+- 🔹 Futuristic cyberpunk background with particles, grid, and lightning effects  
+- 🔹 Responsive design (works on desktop + mobile)  
+- 🔹 Can be played directly in browser (no installation required)  
 
-## Generate 10,000 Questions
-Run the fetch script:
-   python scripts/fetch_questions.py
+---
 
-This will create data/questions_10000.json
+## 🚀 How to Play
+1. Open the game in your browser.  
+2. Click **Next Question** to start.  
+3. Choose the correct option (A, B, C, or D).  
+4. Each correct answer gives you +1000 points ⚡  
+5. One wrong answer resets your score to 0 ❌  
+6. Try to beat your high score!  
 
-## Play the Game
-Run:
-   python game/ayra_game.py
+---
+
+## 📂 Project Structure
