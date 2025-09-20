@@ -18,4 +18,4 @@ This will create data/questions_10000.json
 
 ## Play the Game
 Run:
-   python game/kbc_game.py
+   python game/ayra_game.py
